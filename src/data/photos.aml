@@ -110,44 +110,62 @@ b.lake: 642
 id: 16
 location: Lake Travis from RM 620
 a.date: May 27, 2015
+a.lake: 658
 b.date: Nov. 30, 2012
+b.lake: 632
 
 id: 17
 location: Pedernales River at Texas 71 in Spicewood
 a.date: May 27, 2015
+a.lake: 658
 b.date: July 16, 2009
+b.lake: 639
 
 id: 18
 location: Camp Pedernales on the Pedernales River near its confluence with Lake Travis
 a.date: May 27, 2015
+a.lake: 658
 b.date: July 20, 2011
+b.lake: 643
 
 id: 19
 location: Pedernales River at Texas 71 in Spicewood
 a.date: May 27, 2015
+a.lake: 658
 b.date: July 16, 2009
+b.lake: 639
 
 id: 20
 location: Bee Creek near its confluence with Lake Travis
 a.date: May 27, 2015
+a.lake: 658
 b.date: July 20, 2011
+b.lake: 642
 
 id: 21
 location: Sandy Creek Arm in Jonestown
 a.date: May 27, 2015
+a.lake: 658
 b.date: August 30, 2013
+b.lake: 621
 
 id: 22
 location: Lakeway City Park on the Hurst Creek arm
 a.date: May 27, 2015
+a.lake: 658
 b.date: September 2, 2011
+b.lake: 633
 
 id: 23
 location: Pedernales River near its confluence with Lake Travis in Spicewood
 a.date: May 27, 2015
+a.lake: 658
 b.date: November 30, 2012
+b.lake: 632
 
 id: 25
 location: Hippie Hollow on Lake Travis
 a.date: May 27, 2015
+a.lake: 658
 b.date: October 1, 2013
+b.lake: 621
