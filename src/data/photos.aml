@@ -1,0 +1,14 @@
+[images]
+
+name: Something
+before: image_name.jpg
+after: image_name.jpg
+location: whatever
+
+# notes look like this
+name: Something
+before: image_name.jpg
+after: image_name.jpg
+location: whatever
+
+[]

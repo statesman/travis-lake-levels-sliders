@@ -57,3 +57,6 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# App data
+public/data.json

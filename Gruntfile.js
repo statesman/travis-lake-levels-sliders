@@ -70,6 +70,10 @@ module.exports = function(grunt) {
       options: {
         livereload: true
       },
+      data: {
+        files: ['src/data/*.aml'],
+        tasks: ['archieml']
+      },
       markup: {
         files: ['public/*.php','public/includes/*.inc']
       },
@@ -92,7 +96,7 @@ module.exports = function(grunt) {
           authKey: 'cmg'
         },
         src: 'public',
-        dest: '/stage_aas/projects/then-and-now/',
+        dest: '/stage_aas/projects/news/lake-travis-then-now/',
         exclusions: ['dist/tmp','Thumbs.db','.DS_Store'],
         simple: false,
         useList: false
@@ -105,30 +109,35 @@ module.exports = function(grunt) {
           authKey: 'cmg'
         },
         src: 'public',
-        dest: '/prod_aas/projects/then-and-now/',
+        dest: '/prod_aas/projects/news/lake-travis-then-now/',
         exclusions: ['dist/tmp','Thumbs.db','.DS_Store'],
         simple: false,
         useList: false
       }
     },
 
-
-    // be sure to set publishing paths
     slack: {
-        options: {
-          endpoint: fs.readFileSync('.slack', {encoding: 'utf8'}),
-          channel: '#bakery',
-          username: 'gruntbot',
-          icon_url: 'http://vermilion1.github.io/presentations/grunt/images/grunt-logo.png'
-        },
-        stage: {
-          text: 'Project published to stage: http://stage.host.coxmediagroup.com/aas/projects/then-and-now/ {{message}}'
-        },
-        prod: {
-          text: 'Project published to prod: http://projects.statesman.com/then-and-now/ {{message}}'
-        }
-    }
+      options: {
+        endpoint: fs.readFileSync('.slack', {encoding: 'utf8'}),
+        channel: '#bakery',
+        username: 'gruntbot',
+        icon_url: 'http://vermilion1.github.io/presentations/grunt/images/grunt-logo.png'
+      },
+      stage: {
+        text: 'Project published to stage: http://stage.host.coxmediagroup.com/aas/projects/news/lake-travis-then-now/ {{message}}'
+      },
+      prod: {
+        text: 'Project published to prod: http://projects.statesman.com/news/lake-travis-then-now/ {{message}}'
+      }
+    },
 
+    archieml: {
+      data: {
+        files: {
+          'public/data.json': 'src/data/photos.aml'
+        }
+      },
+    }
 
   });
 
@@ -141,8 +150,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-ftpush');
   grunt.loadNpmTasks('grunt-slack-hook');
   grunt.loadNpmTasks('grunt-bootlint');
+  grunt.loadNpmTasks('grunt-archieml');
 
-  grunt.registerTask('default', ['copy', 'less', 'jshint','bootlint','uglify']);
+  grunt.registerTask('default', ['archieml', 'copy', 'less', 'jshint','bootlint','uglify']);
   grunt.registerTask('stage', ['default','ftpush:stage','slack:stage']);
 //  grunt.registerTask('prod', ['default','ftpush:prod','slack:prod']);
 };
