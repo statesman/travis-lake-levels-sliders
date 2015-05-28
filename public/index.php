@@ -5,10 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <?php
   $meta = array(
-    'title' => 'Memorial Day 2015 flooding in Austin, then and now | Austin American-Statesman',
-    'description' => 'A look at Austin landmarks and streets under water during the flooding on Monday, and the damage revealed after waters receded on Tuesday.',
-    'thumbnail' => 'http://projects.statesman.com/then-and-now/memorial-day-flooding-2015/assets/share.jpg',
-    'url' => 'http://projects.statesman.com/then-and-now/memorial-day-flooding-2015/',
+    'title' => 'Lake Travis before and after the Memorial Day floods',
+    'description' => 'A look at Lake Travis before and after the 2015 Memorial Day floods.',
+    'thumbnail' => 'http://projects.statesman.com/news/lake-travis-then-now/assets/share.jpg',
+    'url' => 'http://projects.statesman.com/news/lake-travis-then-now/',
     'twitter' => 'statesman'
   );
 ?>
