@@ -13,7 +13,7 @@
           $slider.find('.twentytwenty-after-label').attr('data-content', $(images[1]).attr('data-date'));
         })
         .fail(function() {
-          $slider.remove();
+          $slider.parent().remove();
         });
     });
   });
