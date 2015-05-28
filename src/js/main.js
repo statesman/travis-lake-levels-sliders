@@ -1,13 +1,12 @@
 (function($) {
 
-  "use strict";
+  'use strict';
 
-    //twentytwenty sliders for index
-    $(window).load(function() {
-      $("#thenAndNow1").twentytwenty();
-     });
-    $(window).load(function() {
-      $("#thenAndNow2").twentytwenty();
+  $(function() {
+    $('.then-and-now').each(function(i, el) {
+      console.log(el);
+      $(el).twentytwenty();
     });
+  });
 
 }(jQuery));

@@ -73,7 +73,7 @@
 
     <div class="row">
       <div class="col-lg-8 col-md-8">
-        <div id="thenAndNow1">            
+        <div class="then-and-now">
           <div><img src="assets/1935-paramount-sidewalk.jpg"  class="img-responsive" alt="slide 1" /></div>
           <div><img src="assets/1935-paramount-sidewalk-now.jpg" class="img-responsive" alt="slide 2" /></div>
         </div>
@@ -89,7 +89,7 @@
     <div class="row">
       <div class="col-lg-12">
         <h2>Stevie Ray Vaughan statue</h2>
-        <div id="thenAndNow2">            
+        <div class="then-and-now">            
           <div><img src="assets/stevie-monday.jpg"  class="img-responsive" alt="slide 1" /></div>
           <div><img src="assets/stevie-tuesday.jpg" class="img-responsive" alt="slide 2" /></div>
         </div>
