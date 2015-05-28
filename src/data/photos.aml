@@ -1,14 +1,27 @@
 [images]
 
-name: Something
-before: image_name.jpg
-after: image_name.jpg
-location: whatever
+id: 01
+location: Sometimes Island as seen from The Oasis
+a.date: May 27, 2015
+b.date: July 12, 2012
 
-# notes look like this
-name: Something
-before: image_name.jpg
-after: image_name.jpg
-location: whatever
+id: 02
+location: Hurst Creek Arm near Sail & Ski Yacht Club Marina
+a.date: May 27, 2015
+b.date: October 1, 2013
 
-[]
+id: 03
+location: West Beach Cove at Hudson Bend
+a.date: May 27, 2015
+b.date: October 1, 2013
+
+id: 04
+location: Barrel Hollow on the Sandy Creek Arm in Jonestown
+a.date: May 27, 2015
+b.date: August 30, 2013
+
+id: 05
+location: Sometimes Island and Mansfield Dam
+a.date: May 27, 2015
+b.date: July 20, 2011
+
