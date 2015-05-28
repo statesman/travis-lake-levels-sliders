@@ -60,14 +60,13 @@
     </div>
   </nav>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 header">
-      <h4>THEN AND NOW</h4>
-      <h1>Headline for then and now</h1>
-      <p><small>Byline  </small></p>
-      <p>Description of events</p>
-      </div>
+  <article class="container">
+    <div class="page-header">
+      <h4>2015 Central Texas floods</h4>
+      <h1><?php print $meta['title']; ?></h1>
+      <p class="author">Photos by Jay Janner; Interactive by <a href="http://www.statesman.com/staff/andrew-chavez/">Andrew Chavez</a> and <a href="http://www.statesman.com/staff/christian-mcdonald/">Christian McDonald</a></p>
+      <p>Heavy rainfall during Memorial Day weekend across Central Texas, combined with a wetter-than-average year for the region, have water levels at Lake Travis up than 20 feet since the beginning of the year. The photos below show the lake from different angles over the past three years and those same locations after the historic Memorial Day rains.</p>
+      <p><a href="http://www.statesman.com/flist/weather/complete-coverage-severe-weather-and-flooding-may-/fxz/" target="_blank">Complete flood coverage &gt; </a>
     </div>
 
     <?php

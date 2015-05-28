@@ -24,17 +24,29 @@ ul.social {
 
 
 /* Interactives header */
-.header {
+.page-header {
   margin-top: 85px;
   margin-bottom: @line-height-computed;
-  > h2 {
-    margin: @padding-base-vertical 0;
-  }
-  > h4 {
+  margin-bottom: @line-height-computed * 2.5;
+  padding-bottom: @line-height-computed * 2.5;
+
+  h4 {
     color: @gray-light;
+    font-family: @font-family-sans-serif;
     text-transform: uppercase;
-    font-weight: bold;
-    margin-bottom: @padding-base-vertical;
-    font-size: @font-size-base * .9;
+    font-weight: 700;
+    margin-bottom: 6px;
+    font-size: 12.5px;
+  }
+
+  p.author {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+
+    a {
+      font-family: @font-family-serif-2;
+      color: @text-color;
+    }
   }
 }
