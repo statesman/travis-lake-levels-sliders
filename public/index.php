@@ -70,30 +70,20 @@
       </div>
     </div>
 
-
-    <div class="row">
-      <div class="col-md-8 col-xs-12">
-        <div class="then-and-now">
-          <div><img src="assets/1935-paramount-sidewalk.jpg"  class="img-responsive" alt="slide 1" /></div>
-          <div><img src="assets/1935-paramount-sidewalk-now.jpg" class="img-responsive" alt="slide 2" /></div>
-        </div>
-      </div>
-      <div class="col-md-4 col-xs-12">
-        <h2 style="margin-top:0px;">1935</h2>
-        <p>A sidewalk view of the Paramount sign before 1935. The State Theater replaced the building to the left.</p>
-        <p class="caption clearfix"><em class="pull-right credit">Austin History Center</em></p>
-      </div>
-    </div>
-
+    <?php
+      $json = file_get_contents('data.json');
+      $photos = json_decode($json);
+    ?>
 
     <div class="row">
       <div class="col-xs-12">
-        <h2>Stevie Ray Vaughan statue</h2>
-        <div class="then-and-now">
-          <div><img src="assets/stevie-monday.jpg"  class="img-responsive" alt="slide 1" /></div>
-          <div><img src="assets/stevie-tuesday.jpg" class="img-responsive" alt="slide 2" /></div>
-        </div>
-        <!--  <p class="caption clearfix">Caption <em class="pull-right credit">Austin History Center</em></p> -->
+        <?php foreach($photos->images as $photo): ?>
+          <h2><?php echo $photo->location; ?></h2>
+          <div class="then-and-now">
+            <img src="assets/<?php echo $photo->id ;?>b.jpg" class="img-responsive" data-date="<?php echo $photo->b->date; ?>"/>
+            <img src="assets/<?php echo $photo->id ;?>a.jpg" class="img-responsive" data-date="<?php echo $photo->a->date; ?>"/>
+          </div>
+        <?php endforeach; ?>
       </div>
     </div>
 

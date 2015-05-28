@@ -10,3 +10,9 @@
 @import "type";
 @import "utils";
 @import "twentytwenty";
+
+// Override TwentyTwenty's before and after text
+.twentytwenty-before-label:before,
+.twentytwenty-after-label:before {
+  content: attr(data-content);
+}
