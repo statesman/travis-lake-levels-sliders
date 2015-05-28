@@ -20,8 +20,8 @@ b.lake: 621
 
 id: 03
 location: West Beach Cove at Hudson Bend
-lat: 30.429294
-lng: -97.945694
+lat: 30.430020
+lng: -97.941005
 a.date: May 27, 2015
 a.lake: 658
 b.date: October 1, 2013
@@ -29,8 +29,8 @@ b.lake: 621
 
 id: 04
 location: Barrel Hollow on the Sandy Creek Arm in Jonestown
-lat: 30.465744
-lng: -97.919735
+lat: 30.464963
+lng: -97.920497
 a.date: May 27, 2015
 a.lake: 658
 b.date: August 30, 2013
@@ -38,8 +38,8 @@ b.lake: 621
 
 id: 05
 location: Sometimes Island and Mansfield Dam
-lat: 30.390313
-lng: -97.908925
+lat: 30.409815
+lng: -97.876299
 a.date: May 27, 2015
 a.lake: 658
 b.date: July 20, 2011
@@ -56,8 +56,8 @@ b.lake: 642
 
 id: 07
 location: West Beach Cove on Hudson Bend
-lat: 30.429294
-lng: -97.945694
+lat: 30.431641
+lng: -97.943484
 a.date: May 27, 2015
 a.lake: 658
 b.date: October 1, 2013
@@ -74,8 +74,8 @@ b.lake: 621
 
 id: 09
 location: Marshall Ford Marina and Sometimes Island
-lat: 30.395763
-lng: -97.878480
+lat: 30.393665
+lng: -97.874949
 a.date: May 27, 2015
 a.lake: 658
 b.date: May 13, 2012
@@ -83,8 +83,8 @@ b.lake: 641
 
 id: 10
 location: Mansfield Dam Park
-lat: 30.395161
-lng: -97.907144
+lat: 30.396719
+lng: -97.903210
 a.date: May 27, 2015
 a.lake: 658
 b.date: May 13, 2012
@@ -92,8 +92,8 @@ b.lake: 641
 
 id: 11
 location: Cypress Creek Arm
-lat: 30.433818
-lng: -97.875215
+lat: 30.439354
+lng: -97.880408
 a.date: May 27, 2015
 a.lake: 658
 b.date: July 20, 2011
@@ -101,8 +101,8 @@ b.lake: 642
 
 id: 12
 location: Cypress Creek Arm
-lat: 30.433818
-lng: -97.875215
+lat: 30.439354
+lng: -97.880408
 a.date: May 27, 2015
 a.lake: 658
 b.date: July 12, 2011
@@ -119,8 +119,8 @@ b.lake: 621
 
 id: 14
 location: Bob Wentz Park
-lat: 30.414492
-lng: -97.897631
+lat: 30.406883
+lng: -97.900129
 a.date: May 27, 2015
 a.lake: 658
 b.date: August 30, 2013
@@ -137,8 +137,8 @@ b.lake: 642
 
 id: 16
 location: Lake Travis from RM 620
-lat: 30.393827
-lng: -97.935017
+lat: 30.393714
+lng: -97.875081
 a.date: May 27, 2015
 a.lake: 658
 b.date: Nov. 30, 2012
