@@ -11,6 +11,8 @@ b.lake: 639
 
 id: 02
 location: Hurst Creek Arm near Sail & Ski Yacht Club Marina
+lat: 30.381186
+lng: -97.958126
 a.date: May 27, 2015
 a.lake: 658
 b.date: October 1, 2013
@@ -18,6 +20,8 @@ b.lake: 621
 
 id: 03
 location: West Beach Cove at Hudson Bend
+lat: 30.429294
+lng: -97.945694
 a.date: May 27, 2015
 a.lake: 658
 b.date: October 1, 2013
@@ -25,6 +29,8 @@ b.lake: 621
 
 id: 04
 location: Barrel Hollow on the Sandy Creek Arm in Jonestown
+lat: 30.465744
+lng: -97.919735
 a.date: May 27, 2015
 a.lake: 658
 b.date: August 30, 2013
@@ -32,6 +38,8 @@ b.lake: 621
 
 id: 05
 location: Sometimes Island and Mansfield Dam
+lat: 30.390313
+lng: -97.908925
 a.date: May 27, 2015
 a.lake: 658
 b.date: July 20, 2011
@@ -39,6 +47,8 @@ b.lake: 642
 
 id: 06
 location: The Collier Boat Boat Ramp at Pace Bend Park
+lat: 30.466576
+lng: -98.026669
 a.date: May 27, 2015
 a.lake: 658
 b.date: July 20, 2011
@@ -46,6 +56,8 @@ b.lake: 642
 
 id: 07
 location: West Beach Cove on Hudson Bend
+lat: 30.429294
+lng: -97.945694
 a.date: May 27, 2015
 a.lake: 658
 b.date: October 1, 2013
@@ -53,6 +65,8 @@ b.lake: 621
 
 id: 08
 location: Sail & Ski Yacht Club on the Hurst Creek Arm
+lat: 30.382286
+lng: -97.959811
 a.date: May 27, 2015
 a.lake: 658
 b.date: October 1, 2013
@@ -60,6 +74,8 @@ b.lake: 621
 
 id: 09
 location: Marshall Ford Marina and Sometimes Island
+lat: 30.395763
+lng: -97.878480
 a.date: May 27, 2015
 a.lake: 658
 b.date: May 13, 2012
@@ -67,6 +83,8 @@ b.lake: 641
 
 id: 10
 location: Mansfield Dam Park
+lat: 30.395161
+lng: -97.907144
 a.date: May 27, 2015
 a.lake: 658
 b.date: May 13, 2012
@@ -74,6 +92,8 @@ b.lake: 641
 
 id: 11
 location: Cypress Creek Arm
+lat: 30.433818
+lng: -97.875215
 a.date: May 27, 2015
 a.lake: 658
 b.date: July 20, 2011
@@ -81,6 +101,8 @@ b.lake: 642
 
 id: 12
 location: Cypress Creek Arm
+lat: 30.433818
+lng: -97.875215
 a.date: May 27, 2015
 a.lake: 658
 b.date: July 12, 2011
@@ -88,6 +110,8 @@ b.lake: 644
 
 id: 13
 location: Emerald Point Marina
+lat: 30.432495
+lng: -97.942424
 a.date: May 27, 2015
 a.lake: 658
 b.date: October 1, 2013
@@ -95,6 +119,8 @@ b.lake: 621
 
 id: 14
 location: Bob Wentz Park
+lat: 30.414492
+lng: -97.897631
 a.date: May 27, 2015
 a.lake: 658
 b.date: August 30, 2013
@@ -102,6 +128,8 @@ b.lake: 621
 
 id: 15
 location: Pedernales River at Texas 71
+lat: 30.389493
+lng: -98.086329
 a.date: May 27, 2015
 a.lake: 658
 b.date: July 20, 2011
@@ -109,6 +137,8 @@ b.lake: 642
 
 id: 16
 location: Lake Travis from RM 620
+lat: 30.393827
+lng: -97.935017
 a.date: May 27, 2015
 a.lake: 658
 b.date: Nov. 30, 2012
@@ -116,6 +146,8 @@ b.lake: 632
 
 id: 17
 location: Pedernales River at Texas 71 in Spicewood
+lat: 30.389493
+lng: -98.086329
 a.date: May 27, 2015
 a.lake: 658
 b.date: July 16, 2009
@@ -123,6 +155,8 @@ b.lake: 639
 
 id: 18
 location: Camp Pedernales on the Pedernales River near its confluence with Lake Travis
+lat: 30.430993
+lng: -98.088868
 a.date: May 27, 2015
 a.lake: 658
 b.date: July 20, 2011
@@ -130,6 +164,8 @@ b.lake: 643
 
 id: 19
 location: Pedernales River at Texas 71 in Spicewood
+lat: 30.389493
+lng: -98.086329
 a.date: May 27, 2015
 a.lake: 658
 b.date: July 16, 2009
@@ -137,6 +173,8 @@ b.lake: 639
 
 id: 20
 location: Bee Creek near its confluence with Lake Travis
+lat: 30.355232
+lng: -98.039243
 a.date: May 27, 2015
 a.lake: 658
 b.date: July 20, 2011
@@ -144,6 +182,8 @@ b.lake: 642
 
 id: 21
 location: Sandy Creek Arm in Jonestown
+lat: 30.491734
+lng: -97.916369
 a.date: May 27, 2015
 a.lake: 658
 b.date: August 30, 2013
@@ -151,6 +191,8 @@ b.lake: 621
 
 id: 22
 location: Lakeway City Park on the Hurst Creek arm
+lat: 30.378122
+lng: -97.965752
 a.date: May 27, 2015
 a.lake: 658
 b.date: September 2, 2011
@@ -158,6 +200,8 @@ b.lake: 633
 
 id: 23
 location: Pedernales River near its confluence with Lake Travis in Spicewood
+lat: 30.429309
+lng: -98.094018
 a.date: May 27, 2015
 a.lake: 658
 b.date: November 30, 2012
@@ -165,6 +209,8 @@ b.lake: 632
 
 id: 25
 location: Hippie Hollow on Lake Travis
+lat: 30.410937
+lng: -97.875817
 a.date: May 27, 2015
 a.lake: 658
 b.date: October 1, 2013
