@@ -46,7 +46,7 @@
 </head>
 <body>
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container-fluid">
+    <div class="container">
       <div class="navbar-header">
         <a class="navbar-brand" href="http://www.statesman.com/" target="_blank">
           <img width="273" height="26" src="assets/logo.png">
@@ -78,10 +78,33 @@
     <div class="row">
       <div class="col-xs-12">
         <?php foreach($photos->images as $photo): ?>
-          <h2><?php echo $photo->location; ?></h2>
-          <div class="then-and-now">
-            <img src="assets/<?php echo $photo->id ;?>b.jpg" class="img-responsive" data-date="<?php echo $photo->b->date; ?>"/>
-            <img src="assets/<?php echo $photo->id ;?>a.jpg" class="img-responsive" data-date="<?php echo $photo->a->date; ?>"/>
+          <div class="then-and-now-wrapper">
+            <h2 class="text-center"><?php echo $photo->location; ?></h2>
+            <?php if(isset($photo->lat)): ?>
+              <div class="then-and-now" data-lat="<?php echo $photo->lat; ?>" data-lng="<?php echo $photo->lng; ?>">
+            <?php else: ?>
+              <div class="then-and-now">
+            <?php endif; ?>
+              <img src="assets/<?php echo $photo->id ;?>b.jpg" class="img-responsive" data-date="<?php echo $photo->b->date; ?>"/>
+              <img src="assets/<?php echo $photo->id ;?>a.jpg" class="img-responsive" data-date="<?php echo $photo->a->date; ?>"/>
+            </div>
+            <div class="lake-levels row">
+              <?php if(isset($photo->lat)): ?>
+                <div class="col-sm-4 col-sm-push-4 col-xs-12">
+                  <div class="map"></div>
+                </div>
+              <?php endif; ?>
+              <div class="col-sm-4 col-sm-pull-4 col-xs-6 text-right">
+                <h3>Before</h3>
+                <p><strong>Date:</strong><br /><?php echo $photo->b->date; ?></p>
+                <p><strong>Lake level:</strong><br /><?php echo $photo->b->lake; ?></p>
+              </div>
+              <div class="col-sm-4 col-xs-6">
+                <h3>After</h3>
+                <p><strong>Date:</strong><br /><?php echo $photo->a->date; ?></p>
+                <p><strong>Lake level:</strong><br /><?php echo $photo->a->lake; ?></p>
+              </div>
+            </div>
           </div>
         <?php endforeach; ?>
       </div>
