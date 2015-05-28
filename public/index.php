@@ -46,7 +46,7 @@
 </head>
 <body>
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container-fluid">
+    <div class="container">
       <div class="navbar-header">
         <a class="navbar-brand" href="http://www.statesman.com/" target="_blank">
           <img width="273" height="26" src="assets/logo.png">
@@ -78,10 +78,12 @@
     <div class="row">
       <div class="col-xs-12">
         <?php foreach($photos->images as $photo): ?>
-          <h2><?php echo $photo->location; ?></h2>
-          <div class="then-and-now">
-            <img src="assets/<?php echo $photo->id ;?>b.jpg" class="img-responsive" data-date="<?php echo $photo->b->date; ?>"/>
-            <img src="assets/<?php echo $photo->id ;?>a.jpg" class="img-responsive" data-date="<?php echo $photo->a->date; ?>"/>
+          <div class="then-and-now-wrapper">
+            <h2><?php echo $photo->location; ?></h2>
+            <div class="then-and-now">
+              <img src="assets/<?php echo $photo->id ;?>b.jpg" class="img-responsive" data-date="<?php echo $photo->b->date; ?>"/>
+              <img src="assets/<?php echo $photo->id ;?>a.jpg" class="img-responsive" data-date="<?php echo $photo->a->date; ?>"/>
+            </div>
           </div>
         <?php endforeach; ?>
       </div>
