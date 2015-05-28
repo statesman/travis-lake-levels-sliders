@@ -48,6 +48,7 @@ module.exports = function(grunt) {
         files: {
           'public/dist/scripts.js': [
             'bower_components/jquery/dist/jquery.js',
+            'bower_components/leaflet/dist/leaflet.js',
             'bower_components/imagesloaded/imagesloaded.pkgd.js',
             'bower_components/twentytwenty/js/jquery.twentytwenty.js',
             'bower_components/twentytwenty/js/jquery.event.move.js',

@@ -2,76 +2,107 @@
 
 id: 01
 location: Sometimes Island as seen from The Oasis
+lat: 30.405687
+lng: -97.874276
 a.date: May 27, 2015
+a.lake: 658
 b.date: July 12, 2012
+b.lake: 639
 
 id: 02
 location: Hurst Creek Arm near Sail & Ski Yacht Club Marina
 a.date: May 27, 2015
+a.lake: 658
 b.date: October 1, 2013
+b.lake: 621
 
 id: 03
 location: West Beach Cove at Hudson Bend
 a.date: May 27, 2015
+a.lake: 658
 b.date: October 1, 2013
+b.lake: 621
 
 id: 04
 location: Barrel Hollow on the Sandy Creek Arm in Jonestown
 a.date: May 27, 2015
+a.lake: 658
 b.date: August 30, 2013
+b.lake: 621
 
 id: 05
 location: Sometimes Island and Mansfield Dam
 a.date: May 27, 2015
+a.lake: 658
 b.date: July 20, 2011
+b.lake: 642
 
 id: 06
 location: The Collier Boat Boat Ramp at Pace Bend Park
 a.date: May 27, 2015
+a.lake: 658
 b.date: July 20, 2011
+b.lake: 642
 
 id: 07
 location: West Beach Cove on Hudson Bend
 a.date: May 27, 2015
+a.lake: 658
 b.date: October 1, 2013
+b.lake: 621
 
 id: 08
 location: Sail & Ski Yacht Club on the Hurst Creek Arm
 a.date: May 27, 2015
+a.lake: 658
 b.date: October 1, 2013
+b.lake: 621
 
 id: 09
 location: Marshall Ford Marina and Sometimes Island
 a.date: May 27, 2015
+a.lake: 658
 b.date: May 13, 2012
+b.lake: 641
 
 id: 10
 location: Mansfield Dam Park
 a.date: May 27, 2015
+a.lake: 658
 b.date: May 13, 2012
+b.lake: 641
 
 id: 11
 location: Cypress Creek Arm
 a.date: May 27, 2015
+a.lake: 658
 b.date: July 20, 2011
+b.lake: 642
 
 id: 12
 location: Cypress Creek Arm
 a.date: May 27, 2015
+a.lake: 658
 b.date: July 12, 2011
+b.lake: 644
 
 id: 13
 location: Emerald Point Marina
 a.date: May 27, 2015
+a.lake: 658
 b.date: October 1, 2013
+b.lake: 621
 
 id: 14
 location: Bob Wentz Park
 a.date: May 27, 2015
+a.lake: 658
 b.date: August 30, 2013
+b.lake: 621
 
 id: 15
 location: Pedernales River at Texas 71
 a.date: May 27, 2015
+a.lake: 658
 b.date: July 20, 2011
-
+b.lake: 642
