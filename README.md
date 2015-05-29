@@ -1,57 +1,34 @@
-Then and now template
-=================================
+# Lake Travis then-and-now sliders
 
-## Of note: there is a tool
+This is an adaptation of a regular then-and-now template, which uses the [TwentyTwenty](http://zurb.com/playground/twentytwenty) slider, to show 24 pairs of photos from Lake Travis before and after the Memorial Day floods. It's altered in a few key ways:
 
-There is a Knight Center project [Juxtapose](http://juxtapose.knightlab.com/#create-new) that does this pretty easily. Might consider it.
+- it uses [imagesLoaded](https://github.com/desandro/imagesloaded) to determine when the images for the slider have loaded to *individually* fire up the `.twentytwenty()` plugin instead of `$(window).load()`
+- sliders don't have to be individually specified; instead, they're selected and individually instantiated by a jQuery `.each()`
+- TwentyTwenty's image labels, which are applied in CSS, are [overriden](https://github.com/statesman/travis-lake-levels-sliders/blob/521958536846c9eda2f878c5856407c04a7fcfd7/src/less/style.less#L15-L19) to be pulled from `data-` attributes on the images, which are [updated](https://github.com/statesman/travis-lake-levels-sliders/blob/521958536846c9eda2f878c5856407c04a7fcfd7/src/js/main.js#L14-L15) using jQuery
+- there are Leaflet.js maps under each image
+- the slider data lives in an [ArchieML file](src/data/photos.aml) that is JSON-ified and looped over in the PHP file
 
-## Back to the program
+### Mobile & social considerations
+- the graphic is built using our Bootstrap template, which is responsive
+- the TwentyTwenty slider code is responsive and works with touch and mouse events
+- the Leaflet maps resize and columns are rearranged on mobile and tablet for improved readability
+- the page includes built-in buttons for social sharing
 
-[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
-
-This is a new then-and-now template for Statesman. It uses the [twentytwenty](https://github.com/zurb/twentytwenty) package from Zurb.
-
-## Requirements
-
+### Requirements
 * Node.js
 * Bower
 * Grunt
 
-## Setup
-
-* Download the zip to your machine
-* unzip it into the directory of your choosing
-
-At this point, you should be able to view the content through a browser in your localhost, as all the necessary files are in:
-
-* `dist/`: css and js files
-* `assets/`: example images and other assets
-* `index.php`: the content
-
-To make your project dev ready:
-
-```
+### Development
+```shell
 $ npm install
 $ bower install
-$ grunt
 ```
 
-Any change to files in `src` will require the grunt default task to update files in `dist/`.
+### Deployment
+```shell
+$ grunt ftpush:prod
+```
 
-
-## Usage
-
-`index.php`: the only published viewing page in the project. There is a php array of meta tags at the top. It also utilizes files in `includes`.
-
-`includes`: where partial files are stored for advertising and ads. The two files that need to be edited:
-
-  * `project-metrics.inc`: where to set metrics.
-  * `advertising.inc`: where to change advertising, FWIW
-  * Update `assets/share.jpg` to something appropriate for your project.
-
-`assets/`: where you put the photos and other assets you want in your sliders.
-
-`src/js/`: JavaScript files that Grunt will concatenate, Uglify and save in `dist/scripts.js`
-
-`src/css/`: `less` files that Grunt will transpile into CSS in `dist/style.css`
-
+### Copyright
+&copy; 2015 Austin American-Statesman
