@@ -2,8 +2,6 @@
 
   'use strict';
 
-  var tiles = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
-
   L.Icon.Default.imagePath = 'images';
 
   $(function() {
@@ -29,9 +27,9 @@
           zoomControl: false,
           attributionControl: false,
           center: [30.4180681,-97.915767],
-          zoom: 11
+          zoom: 10
         });
-        map.addLayer(tiles);
+        map.addLayer(L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'));
         L.marker(loc).addTo(map);
       }
     });
