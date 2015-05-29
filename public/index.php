@@ -89,16 +89,16 @@
             </div>
             <div class="lake-levels row">
               <?php if(isset($photo->lat)): ?>
-                <div class="col-sm-4 col-sm-push-4 col-xs-12">
+                <div class="col-sm-6 col-sm-push-3 col-md-4 col-md-push-4 col-xs-12">
                   <div class="map"></div>
                 </div>
               <?php endif; ?>
-              <div class="<?php if(isset($photo->lat)): ?>col-sm-4 col-sm-pull-4 <?php endif; ?>col-xs-6 text-right">
+              <div class="<?php if(isset($photo->lat)): ?>col-sm-3 col-sm-pull-6 col-md-4 col-md-pull-4 <?php endif; ?>col-xs-6 text-right">
                 <h3>Before</h3>
                 <p><strong>Date:</strong><br /><?php echo $photo->b->date; ?></p>
                 <p><strong>Lake level:</strong><br /><?php echo $photo->b->lake; ?> ft. above sea level</p>
               </div>
-              <div class="<?php if(isset($photo->lat)): ?>col-sm-4 <?php endif; ?>col-xs-6">
+              <div class="<?php if(isset($photo->lat)): ?>col-sm-3 col-md-4 <?php endif; ?>col-xs-6">
                 <h3>After</h3>
                 <p><strong>Date:</strong><br /><?php echo $photo->a->date; ?></p>
                 <p><strong>Lake level:</strong><br /><?php echo $photo->a->lake; ?> ft. above sea level</p>

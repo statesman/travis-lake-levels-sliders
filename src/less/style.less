@@ -20,8 +20,12 @@
 
 .then-and-now-wrapper {
   border-bottom: 1px solid @gray-lighter;
-  margin-bottom: @line-height-computed * 2.5;
-  padding-bottom: @line-height-computed * 2.5;
+  margin-bottom: @line-height-computed * 1.5;
+  padding-bottom: @line-height-computed * 1.5;
+  @media (min-width: @screen-sm-min) {
+    margin-bottom: @line-height-computed * 2.5;
+    padding-bottom: @line-height-computed * 2.5;
+  }
   h2 {
     font-style: normal;
     margin-top: 0;
