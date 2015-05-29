@@ -24,9 +24,17 @@
         var mapContainer = $slider.parent('.then-and-now-wrapper').find('.map');
         var loc = [Number(lat), Number(lng)];
         var map = L.map(mapContainer[0], {
+          dragging: false,
+          touchZoom: false,
+          scrollWheelZoom: false,
+          doubleClickZoom: false,
+          boxZoom: false,
+          tap: false,
           zoomControl: false,
           attributionControl: false,
           center: [30.4180681,-97.915767],
+          minZoom: 10,
+          maxZoom: 10,
           zoom: 10
         });
         map.addLayer(L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'));
