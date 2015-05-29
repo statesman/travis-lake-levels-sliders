@@ -26,9 +26,12 @@ ul.social {
 /* Interactives header */
 .page-header {
   margin-top: 85px;
-  margin-bottom: @line-height-computed;
-  margin-bottom: @line-height-computed * 2.5;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 35px;
+  @media (min-width: @screen-sm-min) {
+    margin-bottom: @line-height-computed * 2.5;
+    padding-bottom: 40px;
+  }
 
   h4 {
     color: @gray-light;
