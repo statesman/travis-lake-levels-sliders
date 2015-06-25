@@ -156,5 +156,5 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', ['archieml', 'copy', 'less', 'jshint','bootlint','uglify']);
   grunt.registerTask('stage', ['default','ftpush:stage','slack:stage']);
-//  grunt.registerTask('prod', ['default','ftpush:prod','slack:prod']);
+  grunt.registerTask('prod', ['default','ftpush:prod','slack:prod']);
 };
