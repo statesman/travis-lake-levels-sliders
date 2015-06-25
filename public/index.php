@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <?php
   $meta = array(
-    'title' => 'Lake Travis before and after the Memorial Day floods',
-    'description' => 'A look at Lake Travis before and after the 2015 Memorial Day floods.',
+    'title' => 'Lake Travis water levels then and now',
+    'description' => 'How Lake Travis lake levels after the 2015 Memorial Day floods compare to times of drought between 2009-2013.',
     'thumbnail' => 'http://projects.statesman.com/news/lake-travis-then-now/assets/share.jpg',
     'url' => 'http://projects.statesman.com/news/lake-travis-then-now/',
     'twitter' => 'statesman'
